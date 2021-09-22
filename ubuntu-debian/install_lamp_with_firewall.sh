@@ -17,7 +17,7 @@ echo "Installing the ufw (uncomplicated firewall) to secure the server a bit."
 echo
 sudo apt install ufw -y
 echo
-echo "Allowing http, https, & ssh protocols.  To disable any of them, just run **sudo ufw remove [protocol]**."
+echo "Allowing http, https, & ssh protocols.  To disable any of them, just run sudo ufw remove [protocol]."
 echo
 sudo ufw allow http
 sudo ufw allow https
