@@ -18,6 +18,7 @@ sudo /opt/mssql/bin/mssql-conf setup
 echo
 echo "Verify that the service is running"
 sudo systemctl status mssql-server --no-pager
+sleep 5
 echo
 echo "If you plan to connect to the SQL instance on this server remotely from another machine, you might also need to open the SQL Server TCP port (default 1433) on your firewall."
 echo "At this point, SQL Server 2019 is running on your Ubuntu machine and is ready to use!"
