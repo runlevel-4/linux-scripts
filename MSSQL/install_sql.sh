@@ -39,4 +39,5 @@ sudo apt-get update
 sudo apt-get install mssql-tools
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+sleep 5
 source ~/.bashrc
