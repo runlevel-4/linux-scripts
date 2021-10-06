@@ -10,7 +10,7 @@ echo "Building the foundation"
 echo
 echo "Checking for Python and setting it to the default interpreter"
 echo
-sudo yum install python2
+sudo yum install -y python2
 sudo yum install compat-openssl10
 sudo alternatives --config python
 echo
