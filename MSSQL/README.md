@@ -4,6 +4,8 @@
 2. `cd linux-scripts/MSSQL/`
 3. `sh install_sql_ubuntu_20_4.sh`
 
+NOTE: If the last line of the script says _source not found_, then just run: **source ~/.bashrc** manually in the terminal
+
 
 ## Install MS SQL Server | CentOS 8.x ##
 
