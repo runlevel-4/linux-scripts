@@ -41,11 +41,8 @@ sudo curl -o /etc/yum.repos.d/msprod.repo https://packages.microsoft.com/config/
 sudo yum remove unixODBC-utf16 unixODBC-utf16-devel
 sudo yum install -y mssql-tools unixODBC-devel
 echo
-echo "Creating shortcut to sqlcmd"
-echo
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
-source ~/.bashrc
 echo
 echo "All set.  Type the 'sqlcmd -S localhost -U sa' command and punch in the sa password that you setup during config"
 echo
