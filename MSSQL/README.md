@@ -6,4 +6,7 @@
 
 
 ## Install MS SQL Server | CentOS 8.x ##
-Coming Soon
+
+1. `git clone https://github.com/runlevel-4/linux-scripts`
+2. `cd linux-scripts/MSSQL/`
+3. `sh install_sql_centos_8.sh`
