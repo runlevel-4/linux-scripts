@@ -1,2 +1,4 @@
 # LinuxScripts
-Scripts for Linux upgrades and various Linux tasks
+Scripts for Linux upgrades and various Linux tasks...
+
+COMING SOON
