@@ -36,8 +36,6 @@ echo
 echo "Install mssql-tools"
 sudo apt-get update 
 sudo apt-get install mssql-tools unixodbc-dev -y
-sudo apt-get update 
-sudo apt-get install mssql-tools -y
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 echo
