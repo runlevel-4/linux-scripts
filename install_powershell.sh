@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Download the Microsoft repository GPG keys
 wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
 
