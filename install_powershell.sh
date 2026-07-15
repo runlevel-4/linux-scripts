@@ -1,15 +1,19 @@
 #!/bin/bash
 
-# Download the Microsoft repository GPG keys
-wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
+# download the dependencies
+sudo apt-get update
+sudo apt install -y wget apt-transport-https software-properties-common
 
-# Register the Microsoft repository GPG keys
+# download the Microsoft keys
+wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb
+
+# register the Microsoft repository GPG keys
 sudo dpkg -i packages-microsoft-prod.deb
 
-# Update the list of products
+# update the list of products
 sudo apt-get update
 
-# Install PowerShell
+# install PowerShell
 sudo apt-get install -y powershell
 
 echo
