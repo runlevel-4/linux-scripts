@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt install -y wget apt-transport-https software-properties-common
 
 # download the Microsoft keys
-wget -q https://microsoft.com(lsb_release -rs)/packages-microsoft-prod.deb
+wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb
 
 # register the Microsoft repository GPG keys
 sudo dpkg -i packages-microsoft-prod.deb
